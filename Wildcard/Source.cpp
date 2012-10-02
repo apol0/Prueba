@@ -16,6 +16,7 @@ const char*	Wildcard(const char* wild, const char* src)
 	//	a partir de ahi. Usa el caracter * como comodin. Si no encuentra nada devuelve NULL, ojo con eso!
 	//	Por ejemplo "as*te*o" dara true en ",mnaswiteo" pero false en ",mnaswitio"
 	////////////////////////////////////////////////////////////////
+	// blahblah modificacion
 	bool matching = false;
 	unsigned int s = 0, w = 0;
 	unsigned int sizeW = strlen(wild);
